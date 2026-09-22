@@ -1,0 +1,26 @@
+{
+  "name": "clonely-pro",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Proprietary website analysis and generation platform.",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "node --watch backend/server.js",
+    "start": "node backend/server.js",
+    "test": "node tests/run-tests.js",
+    "test:analyzer": "node tests/analyzer.test.js",
+    "test:generator": "node tests/generator.test.js",
+    "verify:endpoints": "node scripts/verify-endpoints.js",
+    "test:api": "node scripts/verify-endpoints.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "axios": "^1.7.9",
+    "bcryptjs": "^3.0.3",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "fs-extra": "^11.2.0",
+    "jsonwebtoken": "^9.0.3"
+  }
+}

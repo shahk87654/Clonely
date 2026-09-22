@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Generated output
+output/
+storage/projects/
+storage/exports/
+storage/cache/
+storage/reports/
+storage/users.json
+
+# Cache / test
+.cache/
+.tmp/
+coverage/
+playwright-report/
+test-results/
+
+# Build
+dist/
+build/
+
+# IDE / OS
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Archives
+*.zip
+*.tar
+*.gz

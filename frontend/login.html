@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in — Clonely</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body class="auth-page">
+    <a class="auth-brand mkt-brand" href="/"><span class="brand-mark">C</span><span>clonely<span class="brand-dot">.</span></span></a>
+    <form class="auth-card" id="login-form">
+      <h1>Welcome back</h1>
+      <p>Sign in to your cloning workspace.</p>
+      <label class="field-label" for="email">Email</label>
+      <input class="field-input" id="email" name="email" type="email" required autocomplete="email" />
+      <label class="field-label" for="password">Password</label>
+      <input class="field-input" id="password" name="password" type="password" required autocomplete="current-password" />
+      <p class="auth-error" id="auth-error" hidden></p>
+      <button class="btn-accent" type="submit" id="auth-submit">Sign in</button>
+      <p class="auth-switch">New here? <a href="/signup">Create a free account</a></p>
+    </form>
+    <script src="/auth-pages.js"></script>
+  </body>
+</html>

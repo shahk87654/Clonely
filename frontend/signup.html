@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create account — Clonely</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body class="auth-page">
+    <a class="auth-brand mkt-brand" href="/"><span class="brand-mark">C</span><span>clonely<span class="brand-dot">.</span></span></a>
+    <form class="auth-card" id="signup-form">
+      <h1>Start cloning</h1>
+      <p id="signup-plan-copy">Create a workspace. Starter is free — 3 clones a month.</p>
+      <label class="field-label" for="name">Full name</label>
+      <input class="field-input" id="name" name="name" type="text" required maxlength="80" autocomplete="name" />
+      <label class="field-label" for="email">Work email</label>
+      <input class="field-input" id="email" name="email" type="email" required autocomplete="email" />
+      <label class="field-label" for="company">Company <span class="muted">(optional)</span></label>
+      <input class="field-input" id="company" name="company" type="text" maxlength="80" autocomplete="organization" />
+      <label class="field-label" for="password">Password</label>
+      <input class="field-input" id="password" name="password" type="password" required minlength="8" autocomplete="new-password" />
+      <p class="auth-error" id="auth-error" hidden></p>
+      <button class="btn-accent" type="submit" id="auth-submit">Create account</button>
+      <p class="auth-switch">Already have an account? <a href="/login">Sign in</a></p>
+    </form>
+    <script src="/auth-pages.js"></script>
+  </body>
+</html>
