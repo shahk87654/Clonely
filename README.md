@@ -230,32 +230,48 @@ The endpoint verifier signs up a temporary user, activates Pro, checks projects 
 
 ## UI Snapshots
 
-The `snapshots/` directory contains desktop (`1440x1000`) and mobile (`390x844`) captures of every public and authenticated surface.
+The `snapshots/` directory contains desktop (`1440x1000`) and mobile (`390x844`) captures. The gallery uses compact previews so the README stays readable; select any preview to open the full-size image.
 
-### Landing
+<details open>
+<summary><strong>Landing</strong></summary>
+<br />
 
-| Desktop | Mobile |
-| --- | --- |
-| ![Landing desktop](snapshots/desktop/landing.png) | ![Landing mobile](snapshots/mobile/landing.png) |
+<table>
+	<tr>
+		<th>Desktop</th>
+		<th>Mobile</th>
+	</tr>
+	<tr>
+		<td><a href="snapshots/desktop/landing.png"><img src="snapshots/desktop/landing.png" alt="Landing desktop snapshot" width="420" /></a></td>
+		<td><a href="snapshots/mobile/landing.png"><img src="snapshots/mobile/landing.png" alt="Landing mobile snapshot" width="180" /></a></td>
+	</tr>
+</table>
+</details>
 
-### Auth and legal pages
+<details>
+<summary><strong>Auth and legal pages</strong></summary>
+<br />
 
 | Page | Desktop | Mobile |
 | --- | --- | --- |
-| Login | ![Login desktop](snapshots/desktop/login.png) | ![Login mobile](snapshots/mobile/login.png) |
-| Signup | ![Signup desktop](snapshots/desktop/signup.png) | ![Signup mobile](snapshots/mobile/signup.png) |
-| Privacy | ![Privacy desktop](snapshots/desktop/privacy.png) | ![Privacy mobile](snapshots/mobile/privacy.png) |
-| Terms | ![Terms desktop](snapshots/desktop/terms.png) | ![Terms mobile](snapshots/mobile/terms.png) |
-| Acceptable Use | ![Acceptable Use desktop](snapshots/desktop/acceptable-use.png) | ![Acceptable Use mobile](snapshots/mobile/acceptable-use.png) |
+| Login | [<img src="snapshots/desktop/login.png" alt="Login desktop" width="260" />](snapshots/desktop/login.png) | [<img src="snapshots/mobile/login.png" alt="Login mobile" width="120" />](snapshots/mobile/login.png) |
+| Signup | [<img src="snapshots/desktop/signup.png" alt="Signup desktop" width="260" />](snapshots/desktop/signup.png) | [<img src="snapshots/mobile/signup.png" alt="Signup mobile" width="120" />](snapshots/mobile/signup.png) |
+| Privacy | [<img src="snapshots/desktop/privacy.png" alt="Privacy desktop" width="260" />](snapshots/desktop/privacy.png) | [<img src="snapshots/mobile/privacy.png" alt="Privacy mobile" width="120" />](snapshots/mobile/privacy.png) |
+| Terms | [<img src="snapshots/desktop/terms.png" alt="Terms desktop" width="260" />](snapshots/desktop/terms.png) | [<img src="snapshots/mobile/terms.png" alt="Terms mobile" width="120" />](snapshots/mobile/terms.png) |
+| Acceptable Use | [<img src="snapshots/desktop/acceptable-use.png" alt="Acceptable Use desktop" width="260" />](snapshots/desktop/acceptable-use.png) | [<img src="snapshots/mobile/acceptable-use.png" alt="Acceptable Use mobile" width="120" />](snapshots/mobile/acceptable-use.png) |
+</details>
 
-### Workspace views
+<details>
+<summary><strong>Workspace views</strong></summary>
+<br />
 
 | View | Desktop | Mobile |
 | --- | --- | --- |
-| Dashboard | ![Dashboard desktop](snapshots/desktop/app-dashboard.png) | ![Dashboard mobile](snapshots/mobile/app-dashboard.png) |
-| Reports | ![Reports desktop](snapshots/desktop/app-reports.png) | ![Reports mobile](snapshots/mobile/app-reports.png) |
-| Billing | ![Billing desktop](snapshots/desktop/app-billing.png) | ![Billing mobile](snapshots/mobile/app-billing.png) |
-| Settings | ![Settings desktop](snapshots/desktop/app-settings.png) | ![Settings mobile](snapshots/mobile/app-settings.png) |
+| Dashboard | [<img src="snapshots/desktop/app-dashboard.png" alt="Dashboard desktop" width="260" />](snapshots/desktop/app-dashboard.png) | [<img src="snapshots/mobile/app-dashboard.png" alt="Dashboard mobile" width="120" />](snapshots/mobile/app-dashboard.png) |
+| Reports | [<img src="snapshots/desktop/app-reports.png" alt="Reports desktop" width="260" />](snapshots/desktop/app-reports.png) | [<img src="snapshots/mobile/app-reports.png" alt="Reports mobile" width="120" />](snapshots/mobile/app-reports.png) |
+| Billing | [<img src="snapshots/desktop/app-billing.png" alt="Billing desktop" width="260" />](snapshots/desktop/app-billing.png) | [<img src="snapshots/mobile/app-billing.png" alt="Billing mobile" width="120" />](snapshots/mobile/app-billing.png) |
+| Settings | [<img src="snapshots/desktop/app-settings.png" alt="Settings desktop" width="260" />](snapshots/desktop/app-settings.png) | [<img src="snapshots/mobile/app-settings.png" alt="Settings mobile" width="120" />](snapshots/mobile/app-settings.png) |
+</details>
 
 ## License
 
